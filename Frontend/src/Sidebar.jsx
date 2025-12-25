@@ -149,7 +149,7 @@ function Sidebar() {
                 <i className="fa-solid fa-magnifying-glass"></i>
                 <input 
                     type="text"
-                    placeholder="Search conversations..."
+                    placeholder="Search"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                 />
@@ -216,7 +216,7 @@ function Sidebar() {
                     </div>
                 </div>
                 <p className="brandTag">
-                    Built with <i className="fa-solid fa-heart"></i> by <strong>Abhijith</strong>
+                    Built with <i className="fa-solid fa-heart"></i> by <strong>Abhijith P</strong>
                 </p>
             </div>
         </section>
